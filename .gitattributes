@@ -1,0 +1,8 @@
+# Preserve exported VBA source bytes, including CRLF.
+*.cls -text
+*.bas -text
+
+# Normalize documentation to LF.
+*.md text eol=lf
+LICENSE text eol=lf
+VERSION text eol=lf
